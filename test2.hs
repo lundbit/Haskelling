@@ -3,7 +3,7 @@
 
 main :: IO ()
 main = do
-    putStrLn "Enter two lines"   -- this is an action
+    putStrLn "Enter two lines, yo"   -- this is an action
     do
         line1 <- getLine                                -- line1 :: String
         do
@@ -20,4 +20,9 @@ main = do
 -- 4) type "":load test2" after "Prelude>"  case matters! 
 -- 5) type in "main" to run it
 --   check out ":type main"  Its an input Output function with no return value
--- 6) Makie changes?  Type ":reload" after *
+-- 6) Make changes?  Type ":reload" after *
+-- 7)  You can ":edit" which opens a text editor, reloads upon close 
+-- 8) Exit with ":quit" 
+-- 9)  COMPILE (make sure you are in right directory!) "stack ghc test2.hs"
+-- 10) now just type "test2"   Voila!
+-- 
