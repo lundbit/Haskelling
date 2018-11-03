@@ -1,0 +1,10 @@
+Source for these tips:
+
+https://lexi-lambda.github.io/blog/2018/02/10/an-opinionated-guide-to-haskell-in-2018/
+
+1) Never use stack install
+2) Skip the optimizer with  $ stack build -- fast
+3) Even faster:  $ stack test --fast --haddock-deps --file-watch
+                    
+
+                    TBC
