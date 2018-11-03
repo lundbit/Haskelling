@@ -25,4 +25,4 @@ main = do
 -- 8) Exit with ":quit" 
 -- 9)  COMPILE (make sure you are in right directory!) "stack ghc test2.hs"
 -- 10) now just type "test2"   Voila!
--- 
+-- 11) BETTER to "stack ghc -- -dyamic test.hs"
